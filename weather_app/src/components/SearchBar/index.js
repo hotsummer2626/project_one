@@ -73,7 +73,7 @@ export default class SearchBar extends Component {
           onKeyUp={this.getWeather}
           type="text"
           name="city"
-          placeholder="please enter city name"
+          placeholder="please enter city name and press enter"
         />
         <button onClick={this.getCityWeather} className="search">
           Search
